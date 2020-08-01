@@ -1,0 +1,123 @@
+/** Reset some basic elements */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
+
+/** Basic styling */
+body { font: 400 16px/1.5 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
+
+/** Set `margin-bottom` to maintain vertical rhythm */
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 0; }
+
+/** `main` element */
+main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
+
+/** Images */
+img { max-width: 100%; vertical-align: middle; }
+
+/** Figures */
+figure > img { display: block; }
+
+figcaption { font-size: 14px; }
+
+/** Lists */
+ul, ol { margin-left: 30px; }
+
+li > ul, li > ol { margin-bottom: 0; }
+
+/** Headings */
+h1, h2, h3, h4, h5, h6 { font-weight: 400; }
+
+/** Links */
+a { color: #000; text-decoration: underline; }
+
+a:visited { color: #000; }
+
+a:hover { color: #222; text-decoration: none; }
+
+
+/* Main page style */
+
+.wrapper {
+  padding: 2rem;
+}
+
+.logo {
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-size: 1rem;
+}
+
+.intro {
+  font-size: 2rem;
+  margin-top: 5rem;
+  font-weight: 300;
+  max-width: 100rem;
+}
+
+.social-links {
+  list-style: none;
+  margin: 4rem 0 0;
+  padding: 0;
+}
+
+.social-links li {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 498px) {
+  .intro {
+    font-size: 2.3rem;
+  }
+  .social-links li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 598px) {
+  .wrapper {
+    padding: 3rem;
+  }
+  .intro {
+    font-size: 2.8rem;
+  }
+  .social-links{
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 798px) {
+  .wrapper {
+    padding: 4rem;
+  }
+  .intro {
+    font-size: 3.2rem;
+    margin-top: 6rem;
+  }
+  .social-links{
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 998px) {
+  .intro {
+    font-size: 3.4rem;
+    margin-top: 8rem;
+  }
+  .social-links{
+    font-size: 1.6rem;
+  }
+  .social-links li {
+    margin-right: 2rem;
+  }
+}
+
+
+@media only screen and (min-width: 1126px) {
+  .intro {
+    font-size: 4rem;
+    margin-top: 12rem;
+  }
+  .social-links{
+    font-size: 1.8rem;
+    margin-top: 6rem;
+  }
+}
